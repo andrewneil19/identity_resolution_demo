@@ -51,7 +51,7 @@ This project demonstrates how to identify when different records refer to the sa
 | F1 Score | 0.976 |
 | Accuracy | 98.9% |
 
-**Key Finding:** Embedding-based matching works well for most name variations but struggles when first names are completely dropped. Future work could combine embeddings with rule-based approaches.
+**Key Finding:** Embedding-based matching works well for most name variations but struggles when first names are completely dropped. Future work could optimize the approach.
 
 ## Project Structure
 ```
