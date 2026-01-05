@@ -1,10 +1,10 @@
-# Identity Resolution for County Commissioners
+# Identity Resolution for County Commissioners/Supervisors
 
-A demonstration project showcasing entity matching and deduplication using SQL, BigQuery, and transformer embeddings.
+A demonstration project showcasing entity matching and deduplication using SQL, BigQuery, and encoder transformer embeddings.
 
 ## Problem Statement
 
-Clean energy advocacy organizations track county commissioners who make permitting decisions on renewable energy projects. Commissioner information comes from multiple sources:
+Clean energy advocacy organizations track county commissioners/supervisors who make permitting decisions on renewable energy projects. Commissioner information may coime from multiple sources, such as:
 - Official county websites
 - News articles  
 - Meeting minutes
@@ -14,12 +14,12 @@ Clean energy advocacy organizations track county commissioners who make permitti
 **Challenge:** Different sources format the same person's information differently:
 - "Stan Sallee" vs "Commissioner Sallee" vs "Sallee, S." vs "Sallee, Stan"
 
-This project demonstrates how to identify when different records refer to the same person.
+This project demonstrates how to identify when different records refer to the same person, which is an identity resolution NLP task.
 
 ## Approach
 
 ### 1. Data Pipeline (SQL + BigQuery)
-- Created realistic test dataset (17 commissioners, 85 total records with variations)
+- Created realistic test dataset (17 commissioners or supervisors from county websites, 85 total records with synthetic variations)
 - Used BigQuery for cloud data warehousing
 - SQL self-join with intelligent filtering to generate 730 candidate pairs
 
