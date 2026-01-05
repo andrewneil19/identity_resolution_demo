@@ -4,7 +4,7 @@ A demonstration project showcasing entity matching and deduplication using SQL, 
 
 ## Problem Statement
 
-Clean energy advocacy organizations track county commissioners/supervisors who make permitting decisions on renewable energy projects. Commissioner information may coime from multiple sources, such as:
+Clean energy advocacy organizations track county commissioners/supervisors who make permitting decisions on renewable energy projects. Commissioner information may come from multiple sources, such as:
 - Official county websites
 - News articles  
 - Meeting minutes
