@@ -58,24 +58,8 @@ This project demonstrates how to identify when different records refer to the sa
 identity-resolution-demo/
 ├── README.md
 ├── import_data_and_identity_resolution.ipynb
-├── requirements.txt
+├── candidate query.sql
 └── .gitignore
-```
-
-## How to Run
-
-### Prerequisites
-- Google Cloud Platform account
-- BigQuery dataset created
-- Python 3.8+
-
-### Setup
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run in Google Colab Enterprise or local Jupyter
-jupyter notebook import_data_and_identity_resolution.ipynb
 ```
 
 ### Steps
@@ -94,8 +78,7 @@ jupyter notebook import_data_and_identity_resolution.ipynb
 
 ## Author
 
-Andy Neil  
-[LinkedIn](your-linkedin) | [Portfolio](your-portfolio)
+Andy Foreman 
 
 **Context:** Created as a technical demonstration for data engineering roles in clean energy advocacy.
 
@@ -106,49 +89,3 @@ MIT License - feel free to use for learning or portfolio purposes.
 
 ---
 
-## Step 3: Additional files needed
-
-**requirements.txt:**
-```
-google-cloud-bigquery>=3.0.0
-pandas>=1.5.0
-sentence-transformers>=2.2.0
-scikit-learn>=1.2.0
-numpy>=1.23.0
-```
-
-**.gitignore:**
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv
-
-# Jupyter
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# GCP credentials
-*.json
-credentials/
-.google/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Data
-*.csv
-*.parquet
-data/
